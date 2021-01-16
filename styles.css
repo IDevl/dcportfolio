@@ -1,6 +1,9 @@
 
 
 
+
+
+
 body {
   background-color: grey;
   font-family: Consolas, sans-serif;
@@ -213,17 +216,12 @@ a.navigations {
 
 
 @media only screen and (max-height: 800px) {
-
-
-
   div.navigation {
     margin-top: 2vh;
   }
 }
 
 @media only screen and (max-height: 590px) {
-
-
   div.mainHome {
     height: 100%;
   }
@@ -242,6 +240,27 @@ a.navigations {
     padding: 10px;
   }
 }
+
+@media only screen and (max-height: 400px) {
+
+  div.name {
+    margin-top: 0;
+  }
+
+  button.learnmore {
+    margin: 1%;
+    padding: 3vh 5vh;
+    font-size: 3vh;
+  }
+
+  div.navigation {
+    margin: 0;
+  }
+
+
+
+}
+
 
 @media only screen and (max-width: 780px) {
 
